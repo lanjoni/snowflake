@@ -14,7 +14,7 @@
      spacing_left = 25;
      spacing_right = 15;
      text_font = ''"Roboto:Regular:12.0"'';
-     icon_font = ''"Roboto:Regular:12.0"'';
+     icon_font = ''"Symbols Nerd Font:Regular:12.0"'';
      display = "all";
      spaces_for_all_displays = "off";
 
@@ -33,7 +33,7 @@
      space_icon_strip = "www code term msg db 6 7 8 9 10";
      space_icon = "•";
      clock_icon = " ";
-     dnd_icon = "";
+     dnd_icon = "";
      clock_format = ''"%a %d %b %l:%M%p"'';
      right_shell = "off";
      right_shell_icon = " ";
