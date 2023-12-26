@@ -13,8 +13,8 @@
      padding_right = 20;
      spacing_left = 25;
      spacing_right = 15;
-     text_font = "Roboto:Regular:12.0";
-     icon_font = "Roboto:Regular:12.0";
+     text_font = ''"Roboto:Regular:12.0"'';
+     icon_font = ''"Roboto:Regular:12.0"'';
      display = "all";
      spaces_for_all_displays = "off";
 
@@ -34,7 +34,7 @@
      space_icon = "•";
      clock_icon = " ";
      dnd_icon = "";
-     clock_format = "%a %d %b %l:%M%p";
+     clock_format = ''"%a %d %b %l:%M%p"'';
      right_shell = "off";
      right_shell_icon = " ";
      right_shell_command = " ";
