@@ -64,7 +64,6 @@
 
       map ctrl+shift+r combine : clear_terminal active : send_text normal \x0c
 
-# navigating between splits
       map alt+h  kitten pass_keys.py neighboring_window left alt+h
       map alt+l  kitten pass_keys.py neighboring_window right alt+l
       map alt+k  kitten pass_keys.py neighboring_window top alt+k
@@ -73,6 +72,7 @@
       map cmd+t new_tab_with_cwd
       map cmd+f launch --type=overlay --stdin-source=@screen_scrollback /opt/homebrew/bin/fzf --no-sort --no-mouse --exact -i --tac
 
+      # colors
       background  #0D1014
       foreground #DCD7BA
       selection_background #2D4F67
@@ -84,7 +84,6 @@
       active_tab_foreground #DCD7BA
       inactive_tab_foreground #727169
       inactive_tab_background #0D1014
-
 
       color0 #090618
       color1 #C34043

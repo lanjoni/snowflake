@@ -8,6 +8,16 @@
     curl
     less
     neofetch
+    neovim
+    kubectl
+    kind
+    httpie
+    clojure
+    clojure-lsp
+    leiningen
+    htop
+    pfetch
+    crystal
   ];
   home.sessionVariables = {
     PAGER = "less";
@@ -29,10 +39,6 @@
   programs.git.enable = true;
   programs.starship.enable = true;
   programs.starship.enableZshIntegration = true;
-  programs.alacritty = {
-    enable = true;
-    settings.font.normal.family = "MesloLGS Nerd Font Mono";
-    settings.font.size = 16;
-  };
+  
   home.file.".inputrc".source = ./settings/inputrc;
 }
