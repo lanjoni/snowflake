@@ -29,7 +29,7 @@
     };
 
     initExtra = ''
-      SPACESHIP_SCALA_SHOW=false
+      # SPACESHIP_SCALA_SHOW=false
       export ZSH="/Users/guto/.oh-my-zsh"
       export EDITOR=vi
       export TERM=xterm-256color
