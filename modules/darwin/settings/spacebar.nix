@@ -32,7 +32,7 @@
      power_icon_strip = "";
      space_icon_strip = "www code term msg db 6 7 8 9 10";
      space_icon = "•";
-     clock_icon = " ";
+     clock_icon = "";
      dnd_icon = "";
      clock_format = ''"%a %d %b %l:%M%p"'';
      right_shell = "off";
