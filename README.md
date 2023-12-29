@@ -27,7 +27,7 @@ Then just run:
 
 ```bash
 # nix-darwin will perform a complete rebuild of the system.
-./result/sw/bin/darwin-rebuild switch --flake ~/.config/snowflake/.#
+./result/sw/bin/darwin-rebuild switch --flake ~/.config/snowflake/.#artemis
 ```
 
 Done. Now, my entire workflow is in your hands for use. With [flakes](https://nixos.wiki/wiki/Flakes) I can guarantee that everything is in its specific version, validating inconsistencies and guaranteeing a perfect replica.
