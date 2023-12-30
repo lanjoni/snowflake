@@ -110,7 +110,6 @@
       raycast
       slack
       spotify
-      telegram-desktop
       vscode
       zoom-us
     ];
