@@ -1,3 +1,4 @@
+# Not using anymore
 { pkgs, ... }: {
   homebrew = {
     brewPrefix = "/opt/homebrew/bin";

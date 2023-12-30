@@ -46,7 +46,6 @@
       export NVM_DIR="$HOME/.nvm"
       export KERL_BUILD_DOCS="yes"
       export ERL_AFLAGS="-kernel shell_history enabled"
-      export KERL_CONFIGURE_OPTIONS="--with-ssl=$(brew --prefix openssl)"
       export SDKMAN_DIR="$HOME/.sdkman"
       [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
