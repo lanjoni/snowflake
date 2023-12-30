@@ -21,7 +21,8 @@
       httpie
       clojure
       clojure-lsp
-      leiningen
+      emacs
+      nodejs_21
       htop
       pfetch
       crystal
