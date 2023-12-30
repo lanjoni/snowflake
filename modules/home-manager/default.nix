@@ -107,7 +107,6 @@
       xz
       zstd
       jetbrains.idea-ultimate
-      raycast
       slack
       spotify
       vscode
