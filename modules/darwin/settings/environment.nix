@@ -3,7 +3,7 @@
     shells = with pkgs; [ bash zsh ];
     loginShell = pkgs.zsh;
     systemPackages = [ pkgs.coreutils ];
-    systemPath = [ "/opt/homebrew/bin" ];
+    systemPath = [ "/usr/local/bin" ];
     pathsToLink = [ "/Applications" ];
   };
 }

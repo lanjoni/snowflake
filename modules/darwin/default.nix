@@ -9,7 +9,6 @@
   imports = [
     ./settings/system.nix
     ./settings/environment.nix
-    ./settings/homebrew.nix
     ./settings/yabai.nix
     ./settings/skhd.nix
     ./settings/spacebar.nix

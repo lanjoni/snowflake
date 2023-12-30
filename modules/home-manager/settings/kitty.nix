@@ -70,7 +70,6 @@
       map alt+j  kitten pass_keys.py neighboring_window bottom alt+j
 
       map cmd+t new_tab_with_cwd
-      map cmd+f launch --type=overlay --stdin-source=@screen_scrollback /opt/homebrew/bin/fzf --no-sort --no-mouse --exact -i --tac
 
       # colors
       background  #0D1014
