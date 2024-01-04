@@ -112,6 +112,8 @@
       spotify
       vscode
       zoom-us
+      metals
+      coursier
     ];
 
     sessionVariables = {
