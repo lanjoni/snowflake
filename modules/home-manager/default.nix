@@ -21,7 +21,6 @@
       httpie
       clojure
       clojure-lsp
-      emacs
       nodejs_21
       htop
       pfetch

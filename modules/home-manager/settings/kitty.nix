@@ -33,7 +33,7 @@
 
       confirm_os_window_close -1
       shell_integration no-cursor
-      cursor_shape block
+      cursor_shape beam
 
       tab_bar_style separator
       tab_separator ""
