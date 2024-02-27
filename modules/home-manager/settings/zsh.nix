@@ -26,6 +26,7 @@
       tmux = "TERM=screen-256color-bce tmux";
       ocaml = "rlwrap ocaml";
       felix = "ssh felix@209.133.204.26 -p 13031";
+      docker-clean = "docker rmi $(docker images -f 'dangling=true' -q)";
     };
 
     initExtra = ''

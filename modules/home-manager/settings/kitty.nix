@@ -13,6 +13,16 @@
       copy_on_select = "yes";
     };
     extraConfig = ''
+      active_tab_font_style   normal
+
+      macos_thicken_font  0.25
+
+      font_family 		  Roboto Mono Regular
+      bold_font 				Roboto Mono Bold
+      italic_font 			Roboto Mono Italic
+      bold_italic_font  Roboto Mono Bold Italic
+      symbol_map U+ea60-U+ebd1 codicon
+
       allow_remote_control true
       listen_on unix:/tmp/mykitty
       window_padding_width 	15

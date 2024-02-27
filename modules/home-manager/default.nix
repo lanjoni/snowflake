@@ -4,6 +4,7 @@
     ./settings/zsh.nix
     ./settings/kitty.nix
     ./settings/tmux.nix
+#    ./settings/neovim.nix
   ];
 
   home = {
@@ -144,5 +145,5 @@
 
   home.file.".inputrc".source = ./settings/inputrc;
   # Don't change this when you change package input. Leave it alone.
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.05"; # 23.11
 }
